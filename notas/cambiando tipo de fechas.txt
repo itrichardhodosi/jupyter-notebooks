@@ -1,0 +1,27 @@
+import pandas as pd
+import os.path
+​
+data1 = pd.read_excel(os.path.abspath(".\inputs\ARSE TRIPLE SSS HCHN 6-JULIO-2020.xlsx"), sheet_name="Sheet1")
+​
+​
+data1["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-enero-", "/01/")
+​
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-febrero-", "/02/")
+​
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-marzo-", "/03/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-marzo-", "/03/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-abril-", "/04/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-mayo-", "/05/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-mayo-", "/05/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-junio-", "/06/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-julio-", "/07/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-agosto-", "/08/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-septiembre-", "/09/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-septiembre-", "/09/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-octubre-", "/10/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-noviembre-", "/11/")
+("-octubre-", "/10/")
+data1 ["Fecha-de-Encuentro"] = data1 ["Fecha-de-Encuentro"].str.replace("-diciembre-", "/12/")
+1
+data1
